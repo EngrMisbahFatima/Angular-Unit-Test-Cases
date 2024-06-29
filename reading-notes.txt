@@ -1,0 +1,12 @@
+- SpyOn(service, method_name): only spy on the method not execute the definiton code.
+- jasmine.createSpyObj(service, method_name): it will create a dummy/mock object of one service to spyon that service methods without touching it. (otherwise, service constructor has been called atleast once).
+
+- Isolated testing: Every unit test case must be independent to each other. otherwise, it is not a good test case written.
+- Deep/ Shalow Integration Testing: Testing the service with all its template files and dependent components.
+
+
+- logger service
+- calculator service
+- Test Bed : resolves dependencies or services
+- A component intereact with the DOM and other components.
+- A compoent is combinaton of HTML template & a typeScript class. Testing a component means both files are working together. 
